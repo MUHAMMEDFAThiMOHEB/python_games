@@ -3,7 +3,7 @@ CLI Games in python, main purpose is to apply Venv(Virtual Environment) for each
 
 If u r going to clone this repo make sure to install Venv on your machine
 
-* Scissors - Paper - Rock game
+* (Scissors - Paper - Rock) game
 
 Activae the Venv, create Dockerfile, then, build the image
 

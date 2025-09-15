@@ -29,11 +29,12 @@ def game():
                 h_choice_index = input("choose from the options [ 1 , 2 , 3 ]: ")
                 
                 if h_choice_index.lower().strip() == "exit":
-                    print("❗ Your choice is out of range !!!")
-                    print("Try again with a vaild choice")
-                elif int(h_choice_index) > 3 or int(h_choice_index) < 0:
                     print("# Game Terminated #")
                     quit()
+                elif int(h_choice_index) > 3 or int(h_choice_index) < 0:
+                    print("❗ Your choice is out of range !!!")
+                    print("Try again with a vaild choice")
+                    
                 else:
                     break
             except(ValueError):
